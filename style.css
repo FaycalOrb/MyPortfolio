@@ -174,12 +174,20 @@ padding-left: 50PX;
   height: 80vh;
 }
 
-.section__pic-container {
+/* .section__pic-container {
   display: flex;
   height: 300px;
   width: 300px;
   margin: auto 0;
+} */
+.section_pic-container {
+  font-size: 2rem;
+  border-radius: 50%;       /* rend la photo ronde */
+  border: 4px solid green;  /* cercle vert autour */
+  overflow: hidden;         /* s'assure que l'image reste dans la forme ronde */
+  display: inline-block;    /* s'assure que le style s'applique correctement */
 }
+
 
 .section__text {
   align-self: center;
